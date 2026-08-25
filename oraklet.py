@@ -1,6 +1,6 @@
 import random
 
-svar = ["Ja, helt klart.", "Absolut inte", "fråga igen imorgon", "Det vill du inte veta", "Sorry i cannot fufill this request"]
+svar = ["Ja, helt klart.", "Absolut inte", "Jag vill inte svara på det", "Det vill du inte veta", "Sorry i cannot fufill this request"]
 
 
 fråga = input("Fråga oraklet: ")
