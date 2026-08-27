@@ -5,4 +5,4 @@ svar = ["Ja, helt klart.", "Absolut inte", "Jag vill inte svara på det", "Det v
 
 fråga = input("Fråga oraklet: ")
 print("Du frågade:", fråga)
-print(random.choice(svar))
+print(random.choice(svar)) 
