@@ -1,7 +1,7 @@
 import random
 
-datorn = random.randint(1,20)
-människa = random.randint(1,20)
+datorn = random.randint(1,14)
+människa = random.randint(1,14)
 
 print (f"du slog {människa}")
 print (f"datorns slog {datorn}")
