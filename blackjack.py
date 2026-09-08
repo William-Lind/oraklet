@@ -11,21 +11,27 @@ datatvå = random.randint(1,11)
 datorsumma = dataett + datatvå
 
 print (f"{summa}")
+print (f"Dealerns första kort är {dataett}")
 
-höj = input("vill du ta ett till kort ja/stanna ")
+öka = input("vill du höja eller stanna höj/stanna ")
 
-if höj == ("ja"):
+if öka == ("höj"):
     print (summatvå)
-elif höj ==("stanna"):
+    if summatvå == 21:
+        print ("du vann")
+    elif summatvå > 21:
+        print ("du förlorade")
+    elif summatvå > datorsumma:
+        print ("du vann!")
+    elif summatvå < datorsumma:
+        print ("du förlorade")
+elif öka ==("stanna"):
     print (summa)
-
-if summa == 21:
-    print ("du vann!")
-elif summa > 21:
-    print ("du förlorade")
-
-
-if summatvå == 21:
-    print ("du vann")
-elif summatvå > 21:
-    print ("du förlorade")
+    if summa == 21:
+        print ("du vann!")
+    elif summa > 21:
+        print ("du förlorade")
+    elif summa > datorsumma:
+        print ("du vann!")
+    elif summa < datorsumma:
+        print ("du förlorade")
