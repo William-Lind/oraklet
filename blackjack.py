@@ -14,24 +14,51 @@ print (f"{summa}")
 print (f"Dealerns första kort är {dataett}")
 
 öka = input("vill du höja eller stanna höj/stanna ")
+öka2 = input("svara med höj eller stanna")
 
-if öka == ("höj"):
-    print (summatvå)
-    if summatvå == 21:
-        print ("du vann")
-    elif summatvå > 21:
-        print ("du förlorade")
-    elif summatvå > datorsumma:
-        print ("du vann!")
-    elif summatvå < datorsumma:
-        print ("du förlorade")
-elif öka ==("stanna"):
-    print (summa)
-    if summa == 21:
-        print ("du vann!")
-    elif summa > 21:
-        print ("du förlorade")
-    elif summa > datorsumma:
-        print ("du vann!")
-    elif summa < datorsumma:
-        print ("du förlorade")
+if input != ("höj" "stanna"):
+    print (öka2)
+else:
+    print 
+    if öka == ("höj"):
+        print (summatvå)
+        if summatvå == 21:
+            print ("du vann")
+        elif summatvå > 21:
+            print ("du förlorade")
+        elif summatvå > datorsumma:
+            print ("du vann!")
+        elif summatvå < datorsumma:
+            print ("du förlorade")
+    elif öka ==("stanna"):
+        print (summa)
+        if summa == 21:
+            print ("du vann!")
+        elif summa > 21:
+            print ("du förlorade")
+        elif summa > datorsumma:
+            print ("du vann!")
+        elif summa < datorsumma:
+            print ("du förlorade")
+
+
+        if öka2 == ("höj"):
+            print (summatvå)
+            if summatvå == 21:
+                print ("du vann")
+            elif summatvå > 21:
+                print ("du förlorade")
+            elif summatvå > datorsumma:
+                print ("du vann!")
+            elif summatvå < datorsumma:
+                print ("du förlorade")
+        elif öka2 == ("stanna"):
+            print (summa)
+            if summa == 21:
+                print ("du vann!")
+            elif summa > 21:
+                print ("du förlorade")
+            elif summa > datorsumma:
+                print ("du vann!")
+            elif summa < datorsumma:
+                print ("du förlorade")
